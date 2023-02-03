@@ -5,9 +5,12 @@
 }
 
 div {
-    display: block;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
     width: 40%;
-    min-width: 320px;
+    min-width: 280px;
     font-family: 'Roboto', sans-serif;
     background: #fff;
     border-radius: 5px;
@@ -24,6 +27,6 @@ div {
 img {
     width: 150px;
     height: 80px;
-    margin: 20px 60px;
+    margin: auto;
 
 }
